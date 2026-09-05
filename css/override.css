@@ -3,6 +3,38 @@ hr {
   margin-bottom: 20px;
 }
 
+/* Notes index, grouped by topic */
+.note-topic {
+  margin-bottom: 30px;
+}
+
+.note-topic h2 {
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 1.3em;
+}
+
+.note-list {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+.note-list li {
+  margin-bottom: 8px;
+}
+
+.note-summary {
+  display: block;
+  font-size: 0.85em;
+  color: #828282;
+}
+
+.note-back {
+  font-size: 0.9em;
+}
+
 /* Tags shown under a post */
 .post-tags {
   list-style: none;

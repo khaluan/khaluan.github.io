@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<link href="/css/override.css" rel="stylesheet" type="text/css">
+<article class="post note">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <a href="{{ '/notes.html' | relative_url }}#{{ page.topic | slugify }}">{{ page.topic }}</a>
+      {%- if page.updated %} • updated {{ page.updated | date: "%b %-d, %Y" }}{% endif -%}
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+
+    <hr>
+    <p class="note-back"><a href="{{ '/notes.html' | relative_url }}">← All notes</a></p>
+  </div>
+
+</article>

@@ -30,6 +30,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+collections:
+  notes:
+    output: true
+    permalink: /notes/:path/
+
 titles_from_headings:
   strip_title: true
   collections: true
@@ -40,3 +45,9 @@ defaults:
       type: post
     values:
       tags: Other
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
+      topic: Uncategorised
