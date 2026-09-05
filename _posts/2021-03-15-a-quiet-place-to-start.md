@@ -2,7 +2,7 @@
 layout: post
 title: A Quiet Place to Start
 author: Alex Morgan
-tags: Notes
+tags: [Notes, Journal, Beginnings]
 ---
 
 There is something useful about beginning with a small page and giving it room to grow.

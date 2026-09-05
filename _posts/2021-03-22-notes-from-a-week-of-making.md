@@ -2,7 +2,7 @@
 layout: post
 title: Notes from a Week of Making
 author: Alex Morgan
-tags: Journal
+tags: [Journal, Notes, Writing]
 ---
 
 ## Three small discoveries

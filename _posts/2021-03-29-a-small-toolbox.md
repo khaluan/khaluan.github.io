@@ -2,7 +2,7 @@
 layout: post
 title: A Small Toolbox for Repeated Work
 author: Alex Morgan
-tags: Technology
+tags: [Technology, Tools, Notes]
 ---
 
 Repeated work gets easier when the useful parts are named. These are a few patterns I reach for when a task starts appearing for the third time.
