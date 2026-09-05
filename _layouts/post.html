@@ -27,8 +27,7 @@ layout: default
     {%- if page.tags and page.tags != empty -%}
     <ul class="post-tags">
       {%- for tag in page.tags -%}
-        {%- assign tag_slug = tag | slugify -%}
-        <li><a href="{{ '/archive.html' | relative_url }}#{{ tag_slug }}" rel="tag">{{ tag }}</a></li>
+        <li>{{ tag }}</li>
       {%- endfor -%}
     </ul>
     {%- endif -%}
